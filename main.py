@@ -4,7 +4,7 @@
 from tqdm import tqdm
 from tqdm import trange
 from getpass import getpass
-import .confi
+import confi
 import os
 from sys import argv, executable
 from threading import Thread
