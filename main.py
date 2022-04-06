@@ -34,7 +34,7 @@ PURPULA='\033[35m'
 
 #Atualizar...
 print(f'{GREEN}Atualizando o script...')
-os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+os.systemtqdm(('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa'))
 ##################################
  
 def init():
