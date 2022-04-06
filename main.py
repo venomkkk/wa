@@ -38,7 +38,7 @@ os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp *
 ##################################
  
 def init():
-  #Email 1
+        #Email 1
 	msg=Message()
 	msg['Subject'] = assunto #assunto
 	msg['From'] = confi.email1 #
