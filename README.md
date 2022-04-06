@@ -1,6 +1,6 @@
-WA-BAN
+# WA-BAN
 
-O wa ban é um script criado no intuito de ajudar pessoas a tira o número do ban com mais facilidade
+O wa ban é um script criado no intuito de ajudar pessoas a tira o número do ban com mais facilidade por em quanto é privado mas em breve iremos liberar
 ----
 
 <h1 align="center">
