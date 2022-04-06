@@ -25,7 +25,7 @@ Este script esta protegido com a licença MIT ou seja, será permitido a distrib
 
 # ⬇️ Instalação
 
-Primeiro de tudo, para poder instalar o script precisará do [termux](https://google.com) atualizado
+Primeiro de tudo, para poder instalar o script precisará do [termux](https://f-droid.org/repo/com.termux_118.apk) atualizado
 # Comandos iniciais:
 ```
 apt update
