@@ -15,9 +15,9 @@ O wa ban é um script criado no intuito de ajudar pessoas a tira o número do ba
 ---
  Créditos:
 
-[Sr Guga](wa.me/557598205795)
+[Sr Guga](https://wa.me/557598205795)
 
-[Felipe Madara](wa.me/557598503624)
+[Felipe Madara](https://wa.me/557598503624)
 
 ---
 
