@@ -18,3 +18,7 @@ email10 = ""
 ###################################
 #Banners
 banner = "Whatsapp BAN"
+
+
+def manutencao():
+  os.system('figlet Manutenção... | lolcat -a -d 5')
