@@ -17,7 +17,7 @@ email10 = ""
 
 ###################################
 #Banners
-banner = "Whatsapp BAN"
+banner = "Unban WA"
 
 
 def manutencao():
