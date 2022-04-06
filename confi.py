@@ -3,8 +3,7 @@
 # Biblioteca
 
 #Emails
-emailsuport = "augusto015123@gmail.com"
-#emailsuport = "support@support.whatsapp.com"
+emailsuport = "support@support.whatsapp.com"
 email1 = "emailprobot001@gmail.com"
 email2 = "emailprobot002@gmail.com"
 email3 = "emailprobot003@gmail.com"
