@@ -22,4 +22,4 @@ banner = "Unban WA"
 
 
 def manutencao():
-  print(f' Estamos em manutenção...\n Volte novamente mais tarde ;) {| lolcat}')
+  print(f' Estamos em manutenção...\n Volte novamente mais tarde ;)')
