@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import os
 
 # Biblioteca
 
@@ -22,3 +23,4 @@ banner = "Unban WA"
 
 def manutencao():
   os.system('figlet Manutenção... | lolcat -a -d 5')
+  print(' Volte novamente mais tarde ;)')
