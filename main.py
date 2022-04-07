@@ -35,6 +35,7 @@ PURPULA='\033[35m'
 #Atualizar...
 print(f'{GREEN}Atualizando o script...')
 os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+print('Pronto atualização entrara em vigor próxima vez que iniciar o script :)')
 ##################################
  
 def init():
