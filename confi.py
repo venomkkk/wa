@@ -1,6 +1,8 @@
 #!/usr/bin/python
 import os
 
+lolcat = os.system('| lolcat')
+
 # Biblioteca
 
 #Emails
@@ -22,5 +24,4 @@ banner = "Unban WA"
 
 
 def manutencao():
-  os.system('figlet Manutenção... | lolcat -a -d 5')
-  print(' Volte novamente mais tarde ;)')
+  print(f' Estamos em manutenção...\n Volte novamente mais tarde ;){lolcat}')
