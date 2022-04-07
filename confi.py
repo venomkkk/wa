@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import os
 
-lolcat = os.system('| lolcat')
+lolcat = [os.system('| lolcat')]
 
 # Biblioteca
 
