@@ -32,12 +32,6 @@ LETRAPRETA='\033[02;30;47m'
 PURPULA='\033[35m'
 ###############################
 
-#Atualizar...
-print(f'{GREEN}Atualizando o script...')
-os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
-print(f'\n{YELLOW}Pronto a atualização entrara em vigor próxima vez que iniciar o script :)\n')
-##################################
- 
 def init():
         #Email 1
 	msg=Message()
@@ -113,6 +107,7 @@ def init():
 	os.system("clear")
 	os.system(f"figlet {confi.banner} | lolcat")
 	print(f"\n{PURPULA} Pronto agora é só esperar o número {AMARELO}{numero}{PURPULA} sair do ban ^-^\n")
+        exit()
   
 ############
 # senha do script
@@ -120,6 +115,14 @@ def init():
 os.system('figlet Senha | lolcat')
 senha = getpass(f"{RED} Hum... Se estiver errada o script não vai funcionar\n > ")
 ############
+
+#Atualizar...
+if senha == 'up':
+  print(f'{GREEN}Atualizando o script...')
+  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+  print(f'\n {YELLOY} Atualização concluida :)\n')
+  exit()
+##################################
 
 ###################  
 #      HOME
