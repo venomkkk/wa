@@ -21,6 +21,9 @@ LETRAPRETA='\033[02;30;47m'
 PURPULA='\033[35m'
 ###############################
 
+
+corpo_email = "Olá quero que retirem o banimento da minha conta do whatsapp pois nela contem documentos importantes da minha empresa peço que resolvam o mais rápido possível estarei aguardando des de já ( " + numero + " )"                      
+
 #Emails
 emailsuport = "support@support.whatsapp.com"
 email1 = "emailprobot001@gmail.com"
