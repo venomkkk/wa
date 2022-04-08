@@ -42,8 +42,8 @@ def init():
         #Email 1
 	msg=Message()
 	msg['Subject'] = assunto #assunto
-	msg['From'] = confi.email1 #
-	msg['To'] = confi.emailsuport 
+	msg['From'] = email1 #gmail
+	msg['To'] = emailsuport 
 	msg.add_header('Content-Type', 'text/html')
 	msg.set_payload(corpo_email )
 	s = SMTP('smtp.gmail.com: 587')
@@ -56,8 +56,8 @@ def init():
 	#Email 2
 	msg=Message()
 	msg['Subject'] = assunto #assunto
-	msg['From'] = confi.email2 #gmail
-	msg['To'] = confi.emailsuport #email do suporte
+	msg['From'] = email2 #gmail
+	msg['To'] = emailsuport #email do suporte
 	msg.add_header('Content-Type', 'text/html')
 	msg.set_payload(corpo_email )
 	s = SMTP('smtp.gmail.com: 587')
@@ -70,8 +70,8 @@ def init():
 	#Email 3
 	msg=Message()
 	msg['Subject'] = assunto #assunto
-	msg['From'] = confi.email3 #gmail
-	msg['To'] = confi.emailsuport #email do suporte
+	msg['From'] = email3 #gmail
+	msg['To'] = emailsuport #email do suporte
 	msg.add_header('Content-Type', 'text/html')
 	msg.set_payload(corpo_email )
 	s = SMTP('smtp.gmail.com: 587')
@@ -84,8 +84,8 @@ def init():
 	#Email 4
 	msg=Message()
 	msg['Subject'] = assunto #assunto
-	msg['From'] = confi.email4 #gmail
-	msg['To'] = confi.emailsuport #email do suporte
+	msg['From'] = email4 #gmail
+	msg['To'] = emailsuport #email do suporte
 	msg.add_header('Content-Type', 'text/html')
 	msg.set_payload(corpo_email )
 	s = SMTP('smtp.gmail.com: 587')
@@ -98,8 +98,8 @@ def init():
 	#Email 5
 	msg=Message()
 	msg['Subject'] = assunto #assunto
-	msg['From'] = confi.email5 #gmail
-	msg['To'] = confi.emailsuport #email do suporte
+	msg['From'] = email5 #gmail
+	msg['To'] = emailsuport #email do suporte
 	msg.add_header('Content-Type', 'text/html')
 	msg.set_payload(corpo_email )
 	s = SMTP('smtp.gmail.com: 587')
