@@ -113,7 +113,6 @@ def init():
 	os.system("clear")
 	os.system(f"figlet {confi.banner} | lolcat")
 	print(f"\n{PURPULA} Pronto agora é só esperar o número {AMARELO}{numero}{PURPULA} sair do ban ^-^\n")
-        exit()
   
 ############
 # senha do script
