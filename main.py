@@ -137,6 +137,6 @@ corpo_email = "Olá quero que retirem o banimento da minha conta do whatsapp poi
 print (f"{GREEN}\n  ============\n | {RED}Aguarde... {GREEN}|\n  ============\n")
 os.system('sleep 0.5')
 #init()
-confi.manutencao()
+manutencao()
 ###################
 
