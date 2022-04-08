@@ -120,7 +120,7 @@ senha = getpass(f"{RED} Hum... Se estiver errada o script não vai funcionar\n >
 if senha == 'up':
   print(f'{GREEN}Atualizando o script...')
   os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
-  print(f'\n {YELLOY} Atualização concluida :)\n')
+  print(f'\n{YELLOW} Atualização concluida :)\n')
   exit()
 ##################################
 
