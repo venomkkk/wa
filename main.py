@@ -131,8 +131,8 @@ numero = input(f"\033[1;34m Formato: +55 55 5555-5555\n Número para tira do ban
 ###################
 
 #Assunto/Corpo do Email
+corpo_email = "Olá quero que retirem o banimento da minha conta do whatsapp pois nela contem documentos importantes da minha empresa peço que resolvam o mais rápido possível estarei aguardando des de já ( " + numero + " )"                      
 assunto = "Banido injustamente"
-from confi import corpo_email
 
 print (f"{GREEN}\n  ============\n | {RED}Aguarde... {GREEN}|\n  ============\n")
 os.system('sleep 0.5')
