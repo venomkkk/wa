@@ -4,7 +4,7 @@
 from tqdm import tqdm
 from tqdm import trange
 from getpass import getpass
-import confi
+from confi import emailsuport, email1, email2, email3, email4, email5, banner, manutencao()
 import os
 from sys import argv, executable
 from threading import Thread
