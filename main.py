@@ -136,7 +136,7 @@ assunto = "Banido injustamente"
 
 print (f"{GREEN}\n  ============\n | {RED}Aguarde... {GREEN}|\n  ============\n")
 os.system('sleep 0.5')
-init()
-#manutencao()
+#init()
+manutencao()
 ###################
 
