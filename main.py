@@ -126,7 +126,7 @@ senha = getpass(f"{RED} Hum... Se estiver errada o script não vai funcionar\n >
 ###################
 os.system('clear')
 os.system('echo Sr Guga e Felipe Madara domina | lolcat')
-os.system(f"figlet {confi.banner} | lolcat")
+os.system(f"figlet {banner} | lolcat")
 numero = input(f"\033[1;34m Formato: +55 55 5555-5555\n Número para tira do ban > {AMARELO}")
 ###################
 
