@@ -116,14 +116,6 @@ os.system('figlet Senha | lolcat')
 senha = getpass(f"{RED} Hum... Se estiver errada o script não vai funcionar\n > ")
 ############
 
-#Atualizar...
-if senha == 'up':
-  print(f'{GREEN}Atualizando o script...')
-  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
-  print(f'\n{YELLOW} Atualização concluida :)\n')
-  exit()
-##################################
-
 ###################  
 #      HOME
 ###################
@@ -142,3 +134,16 @@ os.system('sleep 0.5')
 #init()
 confi.manutencao()
 ###################
+
+#Atualizar...
+if senha == 'up':
+  print(f'{GREEN}Atualizando o script...')
+  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+  print(f'\n{YELLOW} Atualização concluida :)\n')
+  exit()
+elif numero == 'up':
+  print(f'{GREEN}Atualizando o script...')
+  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+  print(f'\n{YELLOW} Atualização concluida :)\n')
+  exit()
+##################################
