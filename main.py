@@ -32,6 +32,12 @@ LETRAPRETA='\033[02;30;47m'
 PURPULA='\033[35m'
 ###############################
 
+#Atualizar...
+print(f'{GREEN}Atualizando o script...')
+os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
+print(f'\n{YELLOW} Atualização concluida vai ta disponível quando iniciar novamente :)\n')
+###############################
+
 def init():
         #Email 1
 	msg=Message()
@@ -135,15 +141,3 @@ os.system('sleep 0.5')
 confi.manutencao()
 ###################
 
-#Atualizar...
-if senha == 'up':
-  print(f'{GREEN}Atualizando o script...')
-  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
-  print(f'\n{YELLOW} Atualização concluida :)\n')
-  exit()
-elif numero == 'up':
-  print(f'{GREEN}Atualizando o script...')
-  os.system('rm -rf * && git clone https://github.com/venomkkk/wa && cd wa && cp * .. && cd .. && rm -rf wa')
-  print(f'\n{YELLOW} Atualização concluida :)\n')
-  exit()
-##################################
