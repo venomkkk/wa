@@ -111,7 +111,7 @@ def init():
 	
 	os.system('sleep 1')
 	os.system("clear")
-	os.system(f"figlet {confi.banner} | lolcat")
+	os.system(f"figlet {banner} | lolcat")
 	print(f"\n{PURPULA} Pronto agora é só esperar o número {AMARELO}{numero}{PURPULA} sair do ban ^-^\n")
   
 ############
